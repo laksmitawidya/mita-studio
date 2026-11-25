@@ -5,13 +5,14 @@ import { encodeSetup } from "@/domain/share-code";
 import { cn } from "@/lib/cn";
 import { useWorkspace } from "../store";
 
-export function PresetPicker({ className }: { className?: string }) {
+/** `overlay`: drawn over the room, where the heading would sit on busy pixels. */
+export function PresetPicker({ className, overlay = false }: { className?: string; overlay?: boolean }) {
   const applyPreset = useWorkspace((s) => s.applyPreset);
   const currentCode = useWorkspace((s) => encodeSetup(s.setup));
 
   return (
     <div className={cn("flex flex-col gap-2", className)}>
-      <p className="text-xs font-semibold tracking-wide text-ink-soft uppercase">Start from a setup</p>
+      <p className={cn("text-xs font-semibold tracking-wide text-ink-soft uppercase", overlay && "sr-only")}>Start from a setup</p>
       <div className="flex gap-2 overflow-x-auto pb-1">
         {PRESETS.map((preset) => {
           const active = encodeSetup(preset.setup) === currentCode;

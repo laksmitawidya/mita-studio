@@ -14,7 +14,7 @@ const TABS: { id: Category; label: string; icon: typeof Table2; hint: string }[]
   { id: "desk", label: "Desk", icon: Table2, hint: "All desks are sit-stand. Wider desks fit more screens." },
   { id: "chair", label: "Chair", icon: Armchair, hint: "The chair matters most on long days." },
   { id: "monitor", label: "Screens", icon: Monitor, hint: `Up to ${MAX_MONITORS} screens, as long as they fit the desk.` },
-  { id: "accessory", label: "Desk gear", icon: Lamp, hint: "Lights, input devices and a camera for calls." },
+  { id: "accessory", label: "Gear", icon: Lamp, hint: "Lights, input devices and a camera for calls." },
   { id: "extra", label: "Extras", icon: Coffee, hint: "Things that make a villa work like an office." },
 ];
 
@@ -66,7 +66,7 @@ export function CatalogPanel() {
 
   return (
     <section aria-label="Choose your items" className="flex min-h-0 flex-col gap-3">
-      <div role="tablist" aria-label="Categories" className="flex gap-1 overflow-x-auto rounded-2xl bg-sunken p-1" onKeyDown={onTabKey}>
+      <div role="tablist" aria-label="Categories" className="grid grid-cols-5 gap-1 rounded-2xl bg-sunken p-1" onKeyDown={onTabKey}>
         {TABS.map(({ id, label, icon: Icon }) => {
           const selected = id === activeTab;
           const count = countFor(id);
@@ -83,14 +83,14 @@ export function CatalogPanel() {
               tabIndex={selected ? 0 : -1}
               onClick={() => actions.setActiveTab(id)}
               className={cn(
-                "flex flex-1 items-center justify-center gap-1.5 rounded-xl px-2.5 py-2 text-sm font-medium whitespace-nowrap transition",
-                selected ? "bg-surface text-ink shadow-sm" : "text-ink-soft hover:text-ink",
+                "relative flex min-w-0 flex-col items-center gap-0.5 rounded-xl px-1 py-1.5 text-xs font-medium whitespace-nowrap transition",
+                selected ? "bg-ink text-canvas shadow-sm" : "text-ink-soft hover:bg-surface hover:text-ink",
               )}
             >
               <Icon className="size-4" aria-hidden="true" />
-              {label}
+              <span className="max-w-full truncate">{label}</span>
               {count > 0 && id !== "desk" && id !== "chair" && (
-                <span className="grid min-w-5 place-items-center rounded-full bg-accent px-1 text-[11px] font-semibold text-white tabular-nums">
+                <span className="absolute top-0.5 right-1 grid h-4 min-w-4 place-items-center rounded-full bg-accent px-1 text-[10px] font-semibold text-white tabular-nums">
                   {count}
                 </span>
               )}

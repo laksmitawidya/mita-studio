@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { getProduct } from "@/domain/catalog";
 import { PRESETS } from "@/domain/presets";
-import type { Category, PlanId, Setup } from "@/domain/types";
+import type { Category, PlanId, Setup, ZoneId } from "@/domain/types";
 import * as ws from "@/domain/workspace";
 
 export type Notice = {
@@ -20,6 +20,10 @@ type State = {
   /** Product highlighted in both the list and the 3D scene. */
   highlightedId: string | null;
   notice: Notice | null;
+  /** Zone open in the furnishing bar. */
+  zoneTab: ZoneId;
+  /** Bumped whenever the camera should fly to `zoneTab`. */
+  cameraTick: number;
 };
 
 type Actions = {
@@ -35,6 +39,8 @@ type Actions = {
   /** Called when an item is clicked in the 3D scene. */
   focusProduct: (productId: string) => void;
   setHighlighted: (productId: string | null) => void;
+  /** Opens a zone in the furnishing bar and flies the camera to it. */
+  selectZone: (zone: ZoneId) => void;
   undo: () => void;
   dismissNotice: () => void;
 };
@@ -55,6 +61,8 @@ export const initialState: State = {
   activeTab: "desk",
   highlightedId: null,
   notice: null,
+  zoneTab: "coffee",
+  cameraTick: 0,
 };
 
 export const useWorkspace = create<WorkspaceStore>()(
@@ -120,12 +128,14 @@ export const useWorkspace = create<WorkspaceStore>()(
 
       focusProduct: (productId) => {
         const product = getProduct(productId);
-        // Zone items live in the zone cards below the room, not in a catalog tab.
-        if (product.category === "zone") return set({ highlightedId: productId });
+        // Zone items live in the furnishing bar, not in a catalog tab.
+        if (product.category === "zone" && product.zone) return set({ zoneTab: product.zone, highlightedId: productId });
         set({ activeTab: product.category, highlightedId: productId });
       },
 
       setHighlighted: (highlightedId) => set({ highlightedId }),
+
+      selectZone: (zoneTab) => set((s) => ({ zoneTab, cameraTick: s.cameraTick + 1 })),
 
       undo: () => {
         const previous = get().notice?.undo;

@@ -3,11 +3,12 @@
 import { CameraControls, ContactShadows, Environment, Lightformer } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { LayoutGrid, Maximize2, ScanSearch } from "lucide-react";
-import { useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useShallow } from "zustand/react/shallow";
 import { findProduct } from "@/domain/catalog";
 import { formatCents } from "@/domain/money";
-import { activeZones, layoutWorkspace } from "@/domain/placement";
+import { ZONE_AREAS, activeZones, layoutWorkspace } from "@/domain/placement";
+import type { ZoneId } from "@/domain/types";
 import { unitPriceCents } from "@/domain/pricing";
 import { useWorkspace } from "@/features/configurator/store";
 import { useTheme } from "@/features/theme/theme";
@@ -23,6 +24,16 @@ const VIEWS: Record<View, [number, number, number, number, number, number]> = {
   desk: [0.15, 1.3, 1.45, 0, 0.95, -0.15],
   top: [0.01, 13, 2.6, 0, 0, 1.1],
 };
+
+/**
+ * A three-quarter view onto one zone, from the open front of the room. The
+ * garage sits behind the relax zone, so it is seen from higher up.
+ */
+function zoneView(zone: ZoneId): [number, number, number, number, number, number] {
+  const [x, z] = ZONE_AREAS[zone].centre;
+  if (zone === "garage") return [x - 0.4, 4.8, z + 3.8, x, 0.4, z];
+  return [x + 3.0, 3.4, z + 4.6, x, 0.4, z];
+}
 
 const DAY = { background: "#efe8dc", hemi: ["#fff7ea", "#c9b08f", 0.7], sun: 1.6, env: 1 } as const;
 const NIGHT = { background: "#0b1210", hemi: ["#4a6a8c", "#1a130e", 0.32], sun: 0.35, env: 0.22 } as const;
@@ -59,12 +70,19 @@ export default function WorkspaceCanvas() {
   const focusProduct = useWorkspace((s) => s.focusProduct);
   const setHighlighted = useWorkspace((s) => s.setHighlighted);
 
+  const { zoneTab, cameraTick } = useWorkspace(useShallow((s) => ({ zoneTab: s.zoneTab, cameraTick: s.cameraTick })));
   const placements = useMemo(() => layoutWorkspace(setup), [setup]);
   const zones = useMemo(() => activeZones(setup), [setup]);
 
   const goTo = (view: View) => {
     void controls.current?.setLookAt(...VIEWS[view], !reducedMotion);
   };
+
+  // Picking a zone in the furnishing bar glides the camera to that corner.
+  useEffect(() => {
+    if (cameraTick === 0) return;
+    void controls.current?.setLookAt(...zoneView(zoneTab), !reducedMotion);
+  }, [cameraTick, zoneTab, reducedMotion]);
 
   return (
     <div className="relative h-full w-full">

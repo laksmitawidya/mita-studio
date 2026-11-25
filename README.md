@@ -6,31 +6,12 @@ Build a remote-work setup in a 3D villa room, furnish the corners around it, and
 
 ![Mita Studio by day: a 3D villa room with desk, three screens, coffee station, scooter, TV corner and garage shelf](docs/screenshots/day.png)
 
-## Coding challenge checklist
+## At a glance
 
-Built for the [Desent workspace designer challenge](https://www.desent.io/coding-test-2) for monis.rent.
-
-**Must-haves**
-
-- [x] **A user can select a desk from at least 2 options.** There are 3 real monis.rent desks (120, 140 and 160 cm), under the *Desk* tab.
-- [x] **A user can select a chair from at least 2 options.** The monis Ergonomic Office Chair, plus a Rattan Task Chair marked as a concept.
-- [x] **A user can add accessories to the workspace (monitors, lamps, plants, etc.).** Up to 3 monitors, 2 lamps, keyboard, mouse, laptop stand, webcam, plant and extras, plus 13 items across four zones around the desk.
-- [x] **The workspace preview updates visually as items are added or changed.** A live 3D room where every item drops into its real position, to scale.
-- [x] **There is a summary or "checkout" view showing the selected setup.** The price summary beside the room, and a checkout page with every item, rental length, delivery details and total.
-- [x] **The app is deployed and accessible via a public URL.** [mita-studio-theta.vercel.app](https://mita-studio-theta.vercel.app/)
-- [ ] **The code is on GitHub with `desent-bot` added as a collaborator.** The code is at [github.com/laksmitawidya/mita-studio](https://github.com/laksmitawidya/mita-studio), with `desent-bot` invited with Read access.
-
-**Required tech stack**
-
-- [x] **Next.js** for the framework (Next.js 16, App Router)
-- [x] **Tailwind CSS** for styling (Tailwind CSS 4)
-- [x] **Vercel** for deployment
-
-**Submission**
-
-- [x] **Live URL:** [mita-studio-theta.vercel.app](https://mita-studio-theta.vercel.app/)
-- [x] **GitHub repository:** [laksmitawidya/mita-studio](https://github.com/laksmitawidya/mita-studio)
-- [x] **Short write-up:** [Approach](#approach), [How it's built](#how-its-built) and [What I'd improve with more time](#what-id-improve-with-more-time) below
+- **Live:** [mita-studio-theta.vercel.app](https://mita-studio-theta.vercel.app/)
+- **Code:** [github.com/laksmitawidya/mita-studio](https://github.com/laksmitawidya/mita-studio)
+- **Built with:** Next.js 16, Tailwind CSS 4 and three.js, deployed on Vercel
+- **What's inside:** 3 desks, 2 chairs, up to 3 screens, desk gear and 13 items across four zones, all in a live 3D room, with a checkout at the end
 
 ## Try it
 
@@ -60,7 +41,7 @@ Every change updates the URL, so a setup is easy to share. For example, [this fu
 
 ## Approach
 
-I started from the person in the brief: a freelance developer who needs a workspace in Bali by next week. They want to see quickly whether a setup fits their work and their budget, then hand it over without a long form. So:
+I designed for one person: a freelance developer landing in Bali who needs a proper workspace by next week. They want to see quickly whether a setup fits their work and their budget, then hand it over without a long form. So:
 
 - **Make it feel like furnishing a room, not filling in a form.** The 3D room is the centre of the page, and everything you pick appears in it straight away. The furnishing bar borrows from life-sim build modes: choose a corner and the camera takes you there.
 - **Use real products and prices.** The catalog comes from monis.rent, so the total is a real quote. Anything monis doesn't rent is clearly marked as a concept.
@@ -71,7 +52,7 @@ I started from the person in the brief: a freelance developer who needs a worksp
 
 Product names, prices and photos come from monis.rent. `npm run sync:catalog` reads each product page's structured data and writes a dated snapshot to `src/data/monis-catalog.json`. Images are saved locally, so the site doesn't hotlink.
 
-Some things the brief and the zones need aren't rented by monis: a second chair, a plant, a surfboard, a scooter, a bean bag and a tool shelf. These are marked **Concept**, use illustrative prices and link to nothing.
+A few items that round out the room aren't rented by monis: a second chair, a plant, a surfboard, a scooter, a bean bag and a tool shelf. These are marked **Concept**, use illustrative prices and link to nothing.
 
 ## How it's built
 

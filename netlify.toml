@@ -8,3 +8,8 @@
 [build.environment]
   # Next.js 16 needs Node 20.9 or newer.
   NODE_VERSION = "22"
+
+# Declared explicitly so the adapter always runs. Without it the raw .next
+# folder was published as static files and every page returned 404.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

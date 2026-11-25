@@ -1,0 +1,445 @@
+{
+  "source": "https://monis.rent",
+  "syncedAt": "2026-11-25",
+  "products": [
+    {
+      "slug": "adjustable-wooden-desk",
+      "name": "Mechanical Adjustable Desk",
+      "description": "Effortlessly adjust the height from 70-120cm, no electricity needed, available in two sizes: 120x70cm, 160x70cm",
+      "url": "https://www.monis.rent/products/adjustable-wooden-desk",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Mechanical_Adjustable_Desk_front_new_a83b8077b0.jpg",
+        "https://strapi.monis.rent/uploads/Mechanical_Adjustable_Desk_handle_37a1bd35ce.jpg",
+        "https://strapi.monis.rent/uploads/Mechanical_Adjustable_Desk_mockup_4e62d2a213.jpg",
+        "https://strapi.monis.rent/uploads/Mechanical_Adjustable_Desk_120_61878d2812.jpg",
+        "https://strapi.monis.rent/uploads/Mechanical_Adjustable_Desk_160_363ae877ec.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1200,
+      "monthlyPriceCents": 2800,
+      "image": "/products/adjustable-wooden-desk.jpg"
+    },
+    {
+      "slug": "electrical-adjustable-desk",
+      "name": "Electrical Adjustable Desk",
+      "description": "Electric height adjustment (70-118cm), smooth and quiet motor, spacious, durable tabletop, ergonomic sit-stand design, improves posture and circulation, available in three sizes.",
+      "url": "https://www.monis.rent/products/electrical-adjustable-desk",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/desk_titel_new_3db151d44c.jpg",
+        "https://strapi.monis.rent/uploads/Electrical_Adjustable_Desk_new_3_7b74467f03.jpg",
+        "https://strapi.monis.rent/uploads/Electrical_Adjustable_Desk_new_1_5e5987de34.jpg",
+        "https://strapi.monis.rent/uploads/Electrical_Adjustable_Desk_new_2_fd0412ed52.jpg",
+        "https://strapi.monis.rent/uploads/Electrical_Adjustable_Desk_details_6cf5dd379a.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 630,
+      "monthlyPriceCents": 1680,
+      "image": "/products/electrical-adjustable-desk.jpg"
+    },
+    {
+      "slug": "dual-motor-electric-standing-desk",
+      "name": "Dual-Motor Electric Standing Desk",
+      "description": "Dual-motor electric height adjustment, 3-stage lifting columns, up to 120 kg load capacity, 36 mm/s lifting speed, heavy-duty steel frame, 18 mm scratch-resistant tabletop, professional sit-stand design, available in 120×70, 140×70 and 160×70 cm.",
+      "url": "https://www.monis.rent/products/dual-motor-electric-standing-desk",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_8_9f364ae87f.jpg",
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_9_f82b51ed65.jpg",
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_2_0c3a0e5fb9.jpg",
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_4_0595f1b0af.jpg",
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_6_47803f34c2.jpg",
+        "https://strapi.monis.rent/uploads/Dual_Motor_Standing_Desk_7_f78a63f453.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1200,
+      "monthlyPriceCents": 3200,
+      "image": "/products/dual-motor-electric-standing-desk.jpg"
+    },
+    {
+      "slug": "ergonomic-office-chair",
+      "name": "Ergonomic Office Chair",
+      "description": "Breathable mesh back, high-density molded foam seat, 4D adjustable armrests, adjustable headrest, height-adjustable lumbar support, multi-angle reclining backrest with lock, retractable leg rest, smooth 60mm silent casters, reinforced 5-star metal base, built-in coat hanger.",
+      "url": "https://www.monis.rent/products/ergonomic-office-chair",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_6_b632a0c529.jpg",
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_7_d0b9bd2d1e.jpg",
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_1_97e50244e7.jpg",
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_4_ea23743c27.jpg",
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_3_43a5ef840d.jpg",
+        "https://strapi.monis.rent/uploads/fantech_oca259s_chair_2_1d0d899371.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 630,
+      "monthlyPriceCents": 1680,
+      "image": "/products/ergonomic-office-chair.jpg"
+    },
+    {
+      "slug": "24-full-hd-office-monitor-a24i-2026",
+      "name": "24\" Full HD Office Monitor A24i 2026",
+      "description": "Xiaomi Monitor A24i 2026, 23.8″ Fast IPS Monitor, 1920 × 1080 FHD, 144 Hz Refresh Rate, 300 Nits Brightness, 1500:1 Contrast Ratio, 99% sRGB, 8-bit (6-bit + FRC), 6 ms Response Time, HDMI 2.0, DisplayPort 1.4, Viewing Angle 178°, Low Blue Light Mode, VESA 75 × 75 mm, Tilt Adjustment 5°/15°.",
+      "url": "https://www.monis.rent/products/24-full-hd-office-monitor-a24i-2026",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_be9e6bf958.jpg",
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_2_1fb63cc46b.jpg",
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_5_6bd2a9b458.jpg",
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_3_a63ae92e07.jpg",
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_4_3e2b401817.jpg",
+        "https://strapi.monis.rent/uploads/24_full_HD_office_monitor_a24i_2026_6_5cf69e9fdf.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 900,
+      "monthlyPriceCents": 2600,
+      "image": "/products/24-full-hd-office-monitor-a24i-2026.jpg"
+    },
+    {
+      "slug": "27-4-k-multimedia-monitor",
+      "name": "27\" 4K Multimedia Monitor",
+      "description": "Redmi 27\" monitor with USB-C or HDMI connection, 350 Nits, 4K (3840×2160) resolution, 100% sRGB, 95% DCI-P3, HDR support, IPS panel, 60Hz refresh rate, 6ms response time, VESA mount.",
+      "url": "https://www.monis.rent/products/27-4-k-multimedia-monitor",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_1_ce29d15357.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_3_f58d3a7b12.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_2_9ba0dc068f.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_5_447aa81eb8.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_7_b4a4ccc1ae.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_4_50855138ee.jpg",
+        "https://strapi.monis.rent/uploads/27_4_K_A27_U_Multitasking_Monitor_6_f17fe7c6ae.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1275,
+      "monthlyPriceCents": 3900,
+      "image": "/products/27-4-k-multimedia-monitor.jpg"
+    },
+    {
+      "slug": "34-4-k-curved-monitor-180-hz",
+      "name": "34\" 4K Gaming Monitor",
+      "description": "Xiaomi Mi Curved 34\" Gaming Monitor at 180Hz, WQHD 3440 × 1440, 350 Nits, DCI-P3 95%, sRGB 100%, 1ms response time.",
+      "url": "https://www.monis.rent/products/34-4-k-curved-monitor-180-hz",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_7_3f6b2ba627.jpg",
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_5_7bbb276417.jpg",
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_4_3ef5661fea.jpg",
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_3_c11336c004.jpg",
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_1_4dd866cfa0.jpg",
+        "https://strapi.monis.rent/uploads/34_4_K_Gaming_Monitor_2_16a75189b5.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1840,
+      "monthlyPriceCents": 6080,
+      "image": "/products/34-4-k-curved-monitor-180-hz.jpg"
+    },
+    {
+      "slug": "apple-studio-display",
+      "name": "27\" 5K Apple Studio Display",
+      "description": " 27-inch 5K Retina display (5120 by 2880 pixels), 600 nits brightness, P3 wide color gamut, True Tone technology, Tilt adjustable stand, 12MP Ultra-Wide camera with Center Stage, six-speaker sound system, studio-quality three-microphone, 1x Thunderbolt 3 port (up to 96W power delivery), 3x USB-C ports.",
+      "url": "https://www.monis.rent/products/apple-studio-display",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Apple_Studio_Display_6_94c6329a05.jpg",
+        "https://strapi.monis.rent/uploads/Apple_Studio_Display_5_e4dde7ef16.jpg",
+        "https://strapi.monis.rent/uploads/apple_magic_trackpad_4_3d047e739a.jpg",
+        "https://strapi.monis.rent/uploads/Apple_Studio_Display_3_2d957d627c.jpg",
+        "https://strapi.monis.rent/uploads/Apple_Studio_Display_1_0b3d98d2f4.jpg",
+        "https://strapi.monis.rent/uploads/Apple_Studio_Display_2_9972140a51.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 11900,
+      "monthlyPriceCents": 34000,
+      "image": "/products/apple-studio-display.jpg"
+    },
+    {
+      "slug": "smart-led-desk-lamp-1-s",
+      "name": "Smart LED Desk Lamp 1S",
+      "description": "520 lm luminous flux, Ra 90 high color rendering, 2600–5000 K color range, 4 lighting modes (Reading/Computer/Child/Focus), flicker‑free dimming, Wi‑Fi smart control, Google Assistant/Alexa/Siri voice support, 25,000 h lifespan, 9 W power, 2.4 GHz Wi‑Fi.",
+      "url": "https://www.monis.rent/products/smart-led-desk-lamp-1-s",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_10_3777ddd163.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_9_0375bf3664.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_8_9fc2cfec1b.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_7_b72d0e8c4d.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_2_89345c86b4.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_1_63cee423d6.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_3_fcbcb5a35f.jpg",
+        "https://strapi.monis.rent/uploads/Xiaomi_Mi_Led_Desk_Lamp_1_S_4_928d77715a.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 320,
+      "monthlyPriceCents": 960,
+      "image": "/products/smart-led-desk-lamp-1-s.jpg"
+    },
+    {
+      "slug": "hue-signe-gradient-lamp",
+      "name": "Hue Signe Gradient Lamp",
+      "description": "Multicolour gradient smart light, 730 – 1,040 lm brightness, 2000 – 6500 K colour range, Bluetooth & Zigbee, >25,000 h LED lifespan, IP20, aluminium body, dimmable via app/switch, voice control (Alexa/Google/Siri), 100–240 V, 2 m cable, 55.3 cm height, 0.72 kg.",
+      "url": "https://www.monis.rent/products/hue-signe-gradient-lamp",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_new_e4eeba8c56.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_2_33ac45c981.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_3_20e9721028.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_6_c4abe870f0.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_4_05b8a80fc2.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_7_d2b47f9405.jpg",
+        "https://strapi.monis.rent/uploads/Philips_Hue_Signe_gradient_table_lamp_5_5232793c0f.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1400,
+      "monthlyPriceCents": 3600,
+      "image": "/products/hue-signe-gradient-lamp.jpg"
+    },
+    {
+      "slug": "logitech-mx-keyboard",
+      "name": "Logitech MX Keyboard",
+      "description": "Up to 10 meters wireless range, Easy-Switch™ keys to work on up to 3 computers, supported by all operating systems, up to 5-month battery live.",
+      "url": "https://www.monis.rent/products/logitech-mx-keyboard",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Logitech_MX_keys_1_9977480ae1.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_MX_keys_2_a227764d16.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_MX_keys_3_ffe28e2531.jpg",
+        "https://strapi.monis.rent/uploads/MX_Keyboard_26f60f36fa.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 720,
+      "monthlyPriceCents": 1920,
+      "image": "/products/logitech-mx-keyboard.jpg"
+    },
+    {
+      "slug": "logitech-mx-master-mouse-s3",
+      "name": "Logitech MX Master Mouse S3",
+      "description": "Compatible with Windows and macOS, wireless connection, 8,000 DPI Darkfield sensor up to 8,000 DPI, ergonomic design, 70 days with one charge. ",
+      "url": "https://www.monis.rent/products/logitech-mx-master-mouse-s3",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Logitech_S3_6_4cf1e523b8.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_S3_5_6c7ebd9183.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_S3_4_e52116e298.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_S3_3_27e04f3ba5.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_S3_2_8e346190e7.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_S3_1_40e28ce0e6.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 400,
+      "monthlyPriceCents": 960,
+      "image": "/products/logitech-mx-master-mouse-s3.jpg"
+    },
+    {
+      "slug": "ergonomic-laptop-stand",
+      "name": "Ergonomic Laptop Stand",
+      "description": "With all laptops from 10''-17\", raises and angles a laptop for comfortable and efficient use.",
+      "url": "https://www.monis.rent/products/ergonomic-laptop-stand",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Laptop_stand_back_new2_91df29c3c8.jpg",
+        "https://strapi.monis.rent/uploads/Ergonomic_Laptop_Stand_2_9d93e0b477.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 240,
+      "monthlyPriceCents": 640,
+      "image": "/products/ergonomic-laptop-stand.jpg"
+    },
+    {
+      "slug": "logitech-4-k-webcam",
+      "name": "Logitech 4K Webcam",
+      "description": "Logitech Brio 4K 5x HD zoom, Integrated microphone, 4K Ultra HD video at 30-60fps, noise canceling, adjustable field of view, tripod mount. ",
+      "url": "https://www.monis.rent/products/logitech-4-k-webcam",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_6_d7ea7e69b0.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_5_12e2bca3e5.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_4_4c432ccd7d.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_3_5bb21d5a68.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_1_c4128c23fb.jpg",
+        "https://strapi.monis.rent/uploads/Logitech_Brio_4_K_Webcam_2_7e731edddb.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 900,
+      "monthlyPriceCents": 2400,
+      "image": "/products/logitech-4-k-webcam.jpg"
+    },
+    {
+      "slug": "nespresso-essenza-coffee-machine",
+      "name": "Nespresso Essenza Coffee Machine",
+      "description": "19-bar pressure pump, 0.6-liter removable water tank, 1260W power, 2 programmable cup sizes (Espresso & Lungo), Fast 25-second heat-up, Energy-saving auto shut-off, Compact & minimalist design.",
+      "url": "https://www.monis.rent/products/nespresso-essenza-coffee-machine",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_2_4ea4cc0abc.jpg",
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_1_b87883f961.jpg",
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_5_16f2c52e15.jpg",
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_4_700383ee47.jpg",
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_3_9430fa033d.jpg",
+        "https://strapi.monis.rent/uploads/NESPRESSO_Essenza_Mini_6_da629b4f03.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 960,
+      "monthlyPriceCents": 2240,
+      "image": "/products/nespresso-essenza-coffee-machine.jpg"
+    },
+    {
+      "slug": "starlink-kit-incl-plan",
+      "name": "Starlink Kit (incl. plan)",
+      "description": "Wi-Fi 6 router with dual-band (2.4 GHz/5 GHz) support, satellite antenna with motorized auto-adjustment, throughput speed: up to 220 Mbps, latency: 20-40 ms, IPv4 and IPv6 support, AES encryption, power input: 100-240V AC, weather-resistant design (IP65), weight: 4.2 kg, plug-and-go setup, requires clear sky view.",
+      "url": "https://www.monis.rent/products/starlink-kit-incl-plan",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Starlink_V4_Gen_3_7_41ef714dbb.jpg",
+        "https://strapi.monis.rent/uploads/Starlink_V4_Gen_3_6_c15e64d37b.jpg",
+        "https://strapi.monis.rent/uploads/Starlink_V4_Gen_3_3_9762f68bcf.jpg",
+        "https://strapi.monis.rent/uploads/Starlink_V4_Gen_3_8_1277c7256c.jpg",
+        "https://strapi.monis.rent/uploads/Starlink_V4_Gen_3_2_13ff7268d4.jpg",
+        "https://strapi.monis.rent/uploads/Starklink_3_cab0d87bbe.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 6000,
+      "monthlyPriceCents": 18880,
+      "image": "/products/starlink-kit-incl-plan.jpg"
+    },
+    {
+      "slug": "smart-air-purifier",
+      "name": "Smart Air Purifier",
+      "description": "50m² coverage, 5-layer filtration, UV-LED sterilization, CADR 443 m³/h, 32dB sleep mode, smart app control, real-time air quality display, 40W power, 5.2kg, Xiaomi Home compatible",
+      "url": "https://www.monis.rent/products/smart-air-purifier",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Smart_Air_Purifier_6_5_bad4579786.jpg",
+        "https://strapi.monis.rent/uploads/Smart_Air_Purifier_6_4_f54c3fba3c.jpg",
+        "https://strapi.monis.rent/uploads/Smart_Air_Purifier_6_3_1d1ed2b830.jpg",
+        "https://strapi.monis.rent/uploads/Smart_Air_Purifier_6_2_ce0d355728.jpg",
+        "https://strapi.monis.rent/uploads/Smart_Air_Purifier_6_1_ac6c6e543f.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1100,
+      "monthlyPriceCents": 2800,
+      "image": "/products/smart-air-purifier.jpg"
+    },
+    {
+      "slug": "bosch-coffee-maker",
+      "name": "Bosch Coffee Maker",
+      "description": "Filter coffee maker, 1200 W power, 1.4 L water tank (10–15 cups), removable water tank, drip‑stop system, auto‑off after 40 min, swing‑out filter holder, glass carafe with aroma protection, easy‑clean design, black finish.",
+      "url": "https://www.monis.rent/products/bosch-coffee-maker",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Bosch_Drip_95f3cf0130.jpg",
+        "https://strapi.monis.rent/uploads/Bosch_Drip_2_3b25c202dc.jpg",
+        "https://strapi.monis.rent/uploads/Bosch_Drip_4_2da2540c32.jpg",
+        "https://strapi.monis.rent/uploads/Bosch_Drip_3_5c8d855967.jpg",
+        "https://strapi.monis.rent/uploads/Bosch_Drip_5_59eb6ab63f.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 500,
+      "monthlyPriceCents": 1200,
+      "image": "/products/bosch-coffee-maker.jpg"
+    },
+    {
+      "slug": "padel-racket",
+      "name": "Padel Racket",
+      "description": "Premium padel racket for beginners to advanced players, lightweight construction, optimized control and power, comfortable grip, ideal for casual games, training sessions, and competitive matches. Choose the perfect racket based on your playing level.",
+      "url": "https://www.monis.rent/products/padel-racket",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Bullpadel_Padel_Racket_VERTEX_ADVANCE_26_Raket_Padel_a9a4f88d34.jpg",
+        "https://strapi.monis.rent/uploads/Bullpadel_Indiga_Power_2026_Racket_Padel_Raket_3377109e4c.jpg",
+        "https://strapi.monis.rent/uploads/Decathlon_KUIKMA_Raket_Padel_PR_Comfort_Soft_2_7eb8aa8d06.jpg",
+        "https://strapi.monis.rent/uploads/Decathlon_KUIKMA_Raket_Padel_PR_Comfort_Soft_2cd9ab8579.jpg",
+        "https://strapi.monis.rent/uploads/Padel_Photo_4a1d125f10.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 500,
+      "monthlyPriceCents": 1200,
+      "image": "/products/padel-racket.jpg"
+    },
+    {
+      "slug": "insta360-action-camera",
+      "name": "Insta360 Action Camera",
+      "description": "8K 360° video, dual 1/1.28″ sensors, 72MP photos, 5.7K 60fps recording, replaceable lenses, waterproof up to 15m, AI reframing, FlowState stabilization, Wi-Fi & Bluetooth, ultra-portable action camera",
+      "url": "https://www.monis.rent/products/insta360-action-camera",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_1_fa8ff584f2.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_2_d7c3329cf5.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_6_45e0d7a943.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_4_197de3c0f7.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_5_2a159c9984.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_3_e8b3c8ae0e.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_8_5bcf021e8a.jpg",
+        "https://strapi.monis.rent/uploads/insta360_x5_8k_360_action_camera_7_5adc9f19b5.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 3900,
+      "monthlyPriceCents": 11600,
+      "image": "/products/insta360-action-camera.jpg"
+    },
+    {
+      "slug": "43-smart-tv-4-k",
+      "name": "43\" Smart TV 4K",
+      "description": "4K UHD (3840 x 2160 pixels), HDR10+ technology, Dolby Digital Plus, Voice control (Alexa, Google Assistant, Bixby), Wi-Fi, Bluetooth, Slim design, VESA mount compatible, HDMI (x3), USB (x1), Ethernet, Optical audio out, RF input for TV tuners.",
+      "url": "https://www.monis.rent/products/43-smart-tv-4-k",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Smart_TV_4_K_43_1_8c5b8dbc8b.jpg",
+        "https://strapi.monis.rent/uploads/Smart_TV_4_K_43_2_1b072bd206.jpg",
+        "https://strapi.monis.rent/uploads/Smart_TV_4_K_43_3_961337c350.jpg",
+        "https://strapi.monis.rent/uploads/Smart_TV_4_K_43_4_47fac47e11.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1700,
+      "monthlyPriceCents": 4760,
+      "image": "/products/43-smart-tv-4-k.jpg"
+    },
+    {
+      "slug": "play-station-5",
+      "name": "Sony PlayStation®5",
+      "description": "Resolution up to 8K, 4K 120, HDR-ready, 1TB SSD, disc port, DualSense wireless controller, adaptive triggers, haptic feedback, built-in microphone. \n",
+      "url": "https://www.monis.rent/products/play-station-5",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Monis_PS_5_Titel_Photo_e3d9eb0af1.jpg",
+        "https://strapi.monis.rent/uploads/sony_playstation_5_3_8b4b91510c.jpg",
+        "https://strapi.monis.rent/uploads/sony_playstation_5_4_bf0e849cef.jpg",
+        "https://strapi.monis.rent/uploads/Monis_PS_5_Titel_2_06bfed5a38.jpg",
+        "https://strapi.monis.rent/uploads/sony_playstation_5_1_19295d980c.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 3120,
+      "monthlyPriceCents": 8960,
+      "image": "/products/play-station-5.jpg"
+    },
+    {
+      "slug": "marshall-woburn-ii-bluetooth",
+      "name": "Marshall Woburn III Bluetooth",
+      "description": "Bluetooth 5.0, 1\" tweeters and dual 5.25\" subwoofers, powered by class D amplifiers, RCA and 3.5mm inputs, analog controls for fine-tuning bass, treble, and volume, 110 watts of power.",
+      "url": "https://www.monis.rent/products/marshall-woburn-ii-bluetooth",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_1_227171e0f8.jpg",
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_4_7b19267fc5.jpg",
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_2_8a1f02e7e4.jpg",
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_5_57aa2cb850.jpg",
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_7_3060f89cc0.jpg",
+        "https://strapi.monis.rent/uploads/marshall_woburn_2_6_5dc4f77448.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 1920,
+      "monthlyPriceCents": 5440,
+      "image": "/products/marshall-woburn-ii-bluetooth.jpg"
+    },
+    {
+      "slug": "adjustable-dumbbell-weight-set",
+      "name": "Adjustable Dumbbell Weight Set",
+      "description": "Up to 50kg adjustable dumbbells and barbells, rubber grips, carrying case for easy transport and storage.",
+      "url": "https://www.monis.rent/products/adjustable-dumbbell-weight-set",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Dumbbell_Barbell_50kg_Set_3_731d6080d4.jpg",
+        "https://strapi.monis.rent/uploads/Dumbbell_Barbell_20kg_Set_5_a5807157cf.jpg",
+        "https://strapi.monis.rent/uploads/Dumbbell_Barbell_50kg_Set_2_1272e468be.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 700,
+      "monthlyPriceCents": 1600,
+      "image": "/products/adjustable-dumbbell-weight-set.jpg"
+    },
+    {
+      "slug": "foldable-walk-pad",
+      "name": "Foldable Walking Pad R2 Pro",
+      "description": "Kingsmith Walking Pad R2 Pro with a speed of 0.5–12 km/h, Bluetooth, Remote control, PC display, 918W DC low noise brushless motor.",
+      "url": "https://www.monis.rent/products/foldable-walk-pad",
+      "imageUrls": [
+        "https://strapi.monis.rent/uploads/Walking_pad_new_05f1ab2d48.jpg",
+        "https://strapi.monis.rent/uploads/Kingsmith_R2_Pro_R_2_Pro_2_564a755ba3.jpg",
+        "https://strapi.monis.rent/uploads/Kingsmith_R2_Pro_R_2_Pro_3_5a15a789f6.jpg",
+        "https://strapi.monis.rent/uploads/Kingsmith_R2_Pro_R_2_Pro_4_5579dbb087.jpg",
+        "https://strapi.monis.rent/uploads/Kingsmith_R2_Pro_R_2_Pro_6_8c8b6517f5.jpg",
+        "https://strapi.monis.rent/uploads/Kingsmith_R2_Pro_R_2_Pro_5_0132dd7f93.jpg"
+      ],
+      "currency": "USD",
+      "weeklyPriceCents": 2240,
+      "monthlyPriceCents": 5760,
+      "image": "/products/foldable-walk-pad.jpg"
+    }
+  ]
+}
